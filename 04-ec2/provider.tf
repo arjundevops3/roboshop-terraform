@@ -8,7 +8,7 @@ terraform {
 
   backend "s3" {
     bucket = "daws76s-remote-st"
-    key    = "vpc"
+    key    = "ec2"
     region = "us-east-1"
     dynamodb_table = "daws76s-lock"
   }
